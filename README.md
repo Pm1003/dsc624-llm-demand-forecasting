@@ -12,7 +12,7 @@ The notebook downloads it automatically with `kagglehub` (a Kaggle account/API t
 
 ## How to run
 1. Open `2025EMAI10029_Parthvi_Manoj_DSC624_Assignment_Answers.ipynb` in Google Colab.
-2. Runtime → Change runtime type → **T4 GPU** (both LLMs run in fp16 and need CUDA).
+2. Runtime → Change runtime type → **T4 GPU** (the notebook loads both LLMs in fp16 using CUDA).
 3. Install packages if needed: `pip install -r requirements.txt`.
 4. Run all cells from top to bottom. Execution time depends on model downloads, runtime availability and hardware.
    All tables are written to `/content/dsc624_final_outputs/`.
