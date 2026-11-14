@@ -17,6 +17,9 @@ The notebook downloads it automatically with `kagglehub` (a Kaggle account/API t
 4. Run all cells top to bottom (about 15–25 minutes on a T4, mostly model download and RF fitting).
    All tables are written to `/content/dsc624_final_outputs/`.
 
+## Report
+`2025EMAI10029_Parthvi_Manoj_DSC624_Assignment_Report.pdf` (6 pages): methodology, results and discussion.
+
 ## Pipeline
 | Step | What it does |
 |---|---|
