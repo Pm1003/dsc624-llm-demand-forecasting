@@ -11,7 +11,7 @@ https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-d
 The notebook downloads it automatically with `kagglehub` (a Kaggle account/API token may be required).
 
 ## How to run
-1. Open `2025EMAI10029_Parthvi_Manoj_DSC624_Assignment_Final.ipynb` in Google Colab.
+1. Open `2025EMAI10029_Parthvi_Manoj_DSC624_Assignment_Answers.ipynb` in Google Colab.
 2. Runtime → Change runtime type → **T4 GPU** (both LLMs run in fp16 and need CUDA).
 3. Install packages if needed: `pip install -r requirements.txt`.
 4. Run all cells top to bottom (about 15–25 minutes on a T4, mostly model download and RF fitting).
