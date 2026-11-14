@@ -14,7 +14,7 @@ The notebook downloads it automatically with `kagglehub` (a Kaggle account/API t
 1. Open `2025EMAI10029_Parthvi_Manoj_DSC624_Assignment_Answers.ipynb` in Google Colab.
 2. Runtime → Change runtime type → **T4 GPU** (both LLMs run in fp16 and need CUDA).
 3. Install packages if needed: `pip install -r requirements.txt`.
-4. Run all cells top to bottom (about 15–25 minutes on a T4, mostly model download and RF fitting).
+4. Run all cells from top to bottom. Execution time depends on model downloads, runtime availability and hardware.
    All tables are written to `/content/dsc624_final_outputs/`.
 
 ## Report
@@ -37,5 +37,5 @@ The notebook downloads it automatically with `kagglehub` (a Kaggle account/API t
 `route_comparison.csv`, `final_experiment_summary.json`.
 
 ## Reproducibility notes
-Global seed 42; robustness seeds 42, 7, 123, 2024, 31337. Tested on Colab with Python 3.13 and PyTorch 2.x; the feature code also runs on pandas 3.
+Global seed 42; robustness seeds 42, 7, 123, 2024, 31337. Tested on Google Colab (Tesla T4, Python 3.13, PyTorch 2.x).
 Inventory and routing are scenario-based: DataCo has no stock-on-hand, supplier lead times or road network.
